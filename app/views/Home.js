@@ -6,11 +6,10 @@ export class Home extends React.Component {
     render() {
         return (
             <View>
+                <Header message = 'Press to Login' />
                 <Text> Test </Text>
                 <Text> Test2 </Text>
                 <Text> Test3 </Text>
-                <Header message = 'Press to Login' />
-
             </View>
         );
     }
