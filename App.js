@@ -2,6 +2,7 @@ import React from 'react';
 import { YellowBox } from 'react-native';
 import { Home } from './app/views/Home.js';
 import { Contact } from './app/views/Contact.js';
+import { Video } from './app/views/Video.js';
 import { StackNavigator } from 'react-navigation';
 
 const MyRoutes = StackNavigator({
@@ -10,6 +11,9 @@ const MyRoutes = StackNavigator({
   },
   ContactRT: {
     screen: Contact
+  },
+  LessonsRT: {
+    screen: Video
   },
 },
   {
